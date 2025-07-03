@@ -2,4 +2,4 @@
 .DS_Store
 
 # Ignore the 'output' folder
-/native_app_setup/native_app/output
+/Native_app/output
