@@ -17,9 +17,14 @@ ors:
         enabled: true
       driving-hgv:
         enabled: true
+      cycling-electric:
+        enabled: true
+      foot-walking:
+        enabled: true
   endpoints:
     matrix:
       maximum_visited_nodes: 1000000000
+      maximum_routes: 25000000
 #        maximum_distance: 100000
 #        maximum_distance_dynamic_weights: 100000
 #        maximum_distance_avoid_areas: 100000
