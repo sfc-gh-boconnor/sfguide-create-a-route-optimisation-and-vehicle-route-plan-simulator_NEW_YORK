@@ -8,7 +8,7 @@ spec:
         - name: ors-graphs-spcs-stage
           mountPath: /downloads/ors_graphs_spcs_stage
         - name: ors-elevation-cache-spcs-stage
-          mountPath: /home/ors/ors_elevation_cache_spcs_stage
+          mountPath: /downloads/ors_elevation_cache_spcs_stage
   endpoints:
     - name: downloader
       port: 8081
@@ -19,4 +19,4 @@ spec:
     - name: ors-graphs-spcs-stage
       source: "@CORE.ORS_GRAPHS_SPCS_STAGE"
     - name: ors-elevation-cache-spcs-stage
-      source: "@CORE.ORS_elevation_cache_SPCS_STAGE"
+      source: "@CORE.ORS_ELEVATION_CACHE_SPCS_STAGE"
