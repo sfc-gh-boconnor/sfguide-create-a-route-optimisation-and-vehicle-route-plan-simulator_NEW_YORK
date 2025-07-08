@@ -20,8 +20,8 @@ spec:
       public: false
   volumes:
     - name: files
-      source: "@core.ORS_SPCS_STAGE"
+      source: "@CORE.ORS_SPCS_STAGE"
     - name: graphs
-      source: "@core.ORS_GRAPHS_SPCS_STAGE"
+      source: "@CORE.ORS_GRAPHS_SPCS_STAGE"
     - name: elevation-cache
-      source: "@core.ORS_elevation_cache_SPCS_STAGE"
+      source: "@CORE.ORS_ELEVATION_CACHE_SPCS_STAGE"
