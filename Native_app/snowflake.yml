@@ -4,7 +4,7 @@ definition_version: 2
 entities:
   pkg:
     type: application package
-    identifier: openrouteservice_native_app_pkg
+    identifier: openrouteservice_native_app_pkg_europe
     artifacts:
       - src: app/*
         dest: ./
@@ -21,5 +21,5 @@ entities:
     type: application
     from:
       target: pkg
-    identifier: openrouteservice_native_app
+    identifier: openrouteservice_native_app_europe
     debug: true
