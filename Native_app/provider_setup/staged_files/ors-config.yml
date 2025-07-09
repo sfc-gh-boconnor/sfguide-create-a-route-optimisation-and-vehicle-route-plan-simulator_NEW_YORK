@@ -6,21 +6,13 @@ ors:
   engine:
     profile_default:
       build:  
-        source_file: /home/ors/files/SanFrancisco.osm.pbf
+        source_file: /home/ors/files/europe-latest.osm.pbf
         instructions: false
         service:
         maximum_visited_nodes: 1000000000
     profiles:
       driving-car:
-        enabled: true
-      cycling-road:
-        enabled: true
-      driving-hgv:
-        enabled: true
-      cycling-electric:
-        enabled: true
-      foot-walking:
-        enabled: true
+        enabled: true  
   endpoints:
     matrix:
       maximum_visited_nodes: 1000000000
